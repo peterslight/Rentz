@@ -1,16 +1,13 @@
 package com.peterstev.rentz.ui;
 
 import android.os.Bundle;
-import android.support.design.widget.CoordinatorLayout;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.peterstev.rentz.R;
 
@@ -56,8 +53,6 @@ public class DetailActivity extends AppCompatActivity {
                         .show();
                 break;
         }
-
-
         return super.onOptionsItemSelected(item);
     }
 }
