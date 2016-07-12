@@ -21,7 +21,7 @@ public class MainActivityListAdapter extends ArrayAdapter<Pojo> {
     private ArrayList stringArray;
 
     public MainActivityListAdapter(Context context, int resource, ArrayList stringArray) {
-        super(context, resource);
+        super(context,R.layout.activity_card_content, resource);
         this.context = context;
         this.resource = resource;
         this.stringArray = stringArray;
